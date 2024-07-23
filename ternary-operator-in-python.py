@@ -20,12 +20,18 @@ if a > 10:
     b = "Greater than 10"
 else:
     b = "Not greater than 10"
-print(b)  # Output: Not greater than 10
+print(b) 
+
+# Output: Not greater than 10
+
+======================================================
 
 # Using ternary operator
 a = 5
 b = "Greater than 10" if a > 10 else "Not greater than 10"
-print(b)  # Output: Not greater than 10
+print(b)  
+
+# Output: Not greater than 10
 
 
 Explanation:
