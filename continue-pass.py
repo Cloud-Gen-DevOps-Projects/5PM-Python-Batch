@@ -150,3 +150,40 @@ Explanation:
 In this example, the check_condition() function checks whether the input value is positive, negative, or zero.
 Inside the else: block, pass is used as a placeholder. Currently, there's no specific action defined for the case where value is zero.
 When value is 0, the pass statement is executed, which means no action is taken in that branch of the conditional statement.
+
+
+
+=======================================================
+
+Using Python continue in a while loop example
+
+The following example shows how to use the continue statement to display odd numbers between 0 and 9 to the screen:
+
+# print the odd numbers 
+counter = 0
+while counter < 10:
+    counter += 1
+
+    if not counter % 2:
+        continue
+
+    print(counter)
+Code language: Python (python)
+
+
+Output:
+
+1
+3
+5
+7
+9
+
+Code language: Python (python)
+
+How it works.
+
+First, define the counter variable with an initial value of zero
+Second, start the loop as long as the counter is less than 10.
+Third, inside the loop, increase the counter by one in each iteration. If the counter is an even number, skip the current iteration. Otherwise, display the counter to the screen.
+
